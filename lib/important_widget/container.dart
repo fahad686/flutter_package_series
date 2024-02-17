@@ -26,7 +26,7 @@ class ContainerExample extends StatelessWidget {
               color: Colors.lightBlue,
               borderRadius: BorderRadius.circular(12),
             ),
-            child: Column(
+            child: const Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [Text("fix width height container")],),
           )
