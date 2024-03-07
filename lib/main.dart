@@ -4,17 +4,19 @@ import 'package:flutter/services.dart';
 
 import 'important_widget/container.dart';
 import 'important_widget/expanded_widget.dart';
+import 'important_widget/radio_button.dart';
 
 void main() async{
-  await SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
+  // await SystemChrome.setPreferredOrientations([
+  //   DeviceOrientation.portraitUp,
+  //   DeviceOrientation.portraitDown,
+  // ]);
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp(
+  {super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home:  const ContainerExample(),
+      home:  const RadioButton(),
     );
   }
 }
