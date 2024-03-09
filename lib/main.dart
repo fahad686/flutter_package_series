@@ -1,16 +1,8 @@
 import 'package:begineer_flutter/utils/color_constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-
-import 'important_widget/container.dart';
-import 'important_widget/expanded_widget.dart';
 import 'important_widget/radio_button.dart';
 
 void main() async{
-  // await SystemChrome.setPreferredOrientations([
-  //   DeviceOrientation.portraitUp,
-  //   DeviceOrientation.portraitDown,
-  // ]);
   runApp(const MyApp());
 }
 
