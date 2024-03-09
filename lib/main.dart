@@ -1,5 +1,6 @@
 import 'package:begineer_flutter/utils/color_constants.dart';
 import 'package:flutter/material.dart';
+
 import 'important_widget/radio_button.dart';
 
 void main() async{
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Learning Series',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellow),
         primaryColor: ColorConstants.primary, //color you want at header
