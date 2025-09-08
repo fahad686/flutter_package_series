@@ -1,6 +1,7 @@
 import 'package:begineer_flutter/utils/color_constants.dart';
 import 'package:flutter/material.dart';
 
+import 'important_widget/charts/hybrid_pie_chart_screen.dart';
 import 'important_widget/radio_button.dart';
 
 void main() async{
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home:  const RadioButton(),
+      home:  const HybridPieChartScreen(),
     );
   }
 }
